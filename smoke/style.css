@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bgimage{
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),url(https://th.bing.com/th/id/R.1601964919df739f3e83f1f0fff825ac?rik=X3uqfgKBOAl8jw&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f01%2f302023-nature-field-landscape.jpg&ehk=rl3FTmjfsVkgEFJcqPbH6PU25IF9X6SzOlQkYlIGDE0%3d&risl=&pid=ImgRaw&r=0);
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+}
+.bgimage1{
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),url(https://images5.alphacoders.com/456/456532.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.leftmenu{
+    
+    width: 30%;
+    line-height: 100Px;
+    float: left;
+}
+.leftmenu h5{
+    padding-left: 20px;
+    
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    font-family: 'montserrat', sans-serif;
+}
+.rightmenu{
+    width: 60%;
+    height: 100Px;
+    float: right;
+}
+.rightmenu ul{
+    margin-left: 250px;
+}
+.rightmenu ul li{
+    display: inline-block;
+    font-family: 'montserrat', sans-serif ;
+    list-style: none;
+    position: relative;
+    font-size: 15px;
+    color: rgb(188, 26, 26);
+    font-weight: bold;
+    line-height: 100px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+ul li a{
+    display: block;
+    padding: 20px ;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+ul li ul.dropdown li {
+    display: block;
+
+}
+ul li ul.dropdown{
+    width: 100%;
+    background: #22438C;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    background: #112C66;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+.rightmenu ul li:hover{
+    color: #000000;
+}
+#firstlist{
+   color: #000000; 
+}
+.text{
+    width: 100%;
+    margin-top: 185px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+
+}
+.page{
+    width: 100%;
+    padding-top: 300px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+.page h1{
+    font-size: 50px;
+    font-family: 'montserrat', sans-serif ;
+    font-weight: 700px;
+    margin: 14px 0px;
+}
+.page h4{
+    font-size: 14px;
+    font-family: 'open sans', sans-serif;
+}
+.text h4{
+    font-size: 14px;
+    font-family: 'open sans', sans-serif;
+}
+.text h1{
+    font-size: 50px;
+    font-family: 'montserrat', sans-serif ;
+    font-weight: 700px;
+    margin: 14px 0px;
+}
+.text h3{
+    font-size: 15px;
+    font-family: 'open sans', sans-serif;
+}
+.page h4{
+    font-size: 14px;
+    font-family: 'open sans', sans-serif;
+}
+.page h3{
+    font-size: 15px;
+    font-family: 'open sans', sans-serif;
+}
+.btn{
+    background-color: rgba(241, 137, 105, 0.795);
+    color: rgb(255, 255, 255);
+    font-family: 'montserrat', sans-serif ;
+    border: none;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 40px;
+    width: 150px;
+    margin-top: 25px;
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+th, td{
+    padding: 20px;
+    padding-left: 150px
+    
+    
+}
+.new{
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    color: white;
+    padding-top: 50px;
+}
+
+
+
+.ocean{
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    z-index: -1;
+    
+    
+
+}
+@media (min-aspect-ratio: 16/9){
+    .ocean{
+        width: 100%;
+        height: auto;
+        
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .ocean{
+        width:auto;
+        height: 10%;
+        
+    }
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+    background-color: rgba(241, 137, 105, 0.795);
+  }

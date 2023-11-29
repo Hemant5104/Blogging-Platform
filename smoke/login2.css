@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(IMG-20231111-WA0010.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper {
+    width: 300px; /* Reduced the width for better readability */
+    background: rgba(255, 255, 255, 0.2); /* Slight background opacity */
+    border: 2px solid rgba(0, 0, 0, 0.2); /* Changed border color */
+    color: rgb(0, 0, 0); /* Changed text color to white */
+    border-radius: 10px;
+    padding: 30px 20px; /* Adjusted padding */
+}
+
+.wrapper h1 {
+    font-size: 24px; /* Reduced font size for better fit */
+    text-align: center;
+    color: rgb(0, 0, 0); /* Centered text and changed color to white */
+    margin-bottom: 20px;
+}
+
+.wrapper .input-box {
+    width: 100%;
+    height: 40px; /* Reduced input height */
+    margin: 15px 0; /* Adjusted margin */
+    position: relative; /* Position icons relative to this container */
+}
+
+.input-box input {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Adjusted border color */
+    border-radius: 20px; /* Adjusted border radius */
+    font-size: 16px;
+    color: rgb(0, 0, 0); /* Changed text color to white */
+    padding: 10px 20px; /* Adjusted padding */
+}
+
+.input-box i {
+    position: absolute;
+    left: 10px; /* Adjust icon's left position */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: rgb(0, 0, 0); /* Changed icon color to white */
+}
+
+.input-box input::placeholder {
+    color: rgba(0, 0, 0, 0.7); /* Adjusted placeholder text color */
+}
+
+.wrapper .remember-forget {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px; /* Adjusted font size */
+    margin: 10px 0; /* Adjusted margin */
+    color: rgb(0, 0, 0); /* Changed text color to white */
+}
+
+.remember-forget label input {
+    accent-color: rgb(0, 0, 0);
+    margin-right: 3px;
+}
+
+.remember-forget a {
+    color: #007BFF; /* Changed link color */
+    text-decoration: none;
+}
+
+.remember-forget a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.2); /* Maintain a transparent look */
+    border: none;
+    outline: none;
+    border-radius: 20px; /* Adjusted border radius */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Adjusted box shadow */
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(0, 0, 0); /* Changed text color to white */
+    font-weight: 600;
+}
+
+.wrapper .btn i {
+    margin-right: 5px; /* Adjust icon spacing */
+}
+
+.wrapper .btn:hover {
+    background: rgba(255, 255, 255, 0.4); /* Hover background color with transparency */
+}
+
+.wrapper .register-link {
+    font-size: 14px;
+    text-align: center;
+    margin: 15px 0 10px; /* Adjusted margin */
+}
+
+.register-link p a {
+    color: #007BFF; /* Changed link color */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
